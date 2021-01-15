@@ -1,0 +1,10 @@
+Login Api:
+http://uat.securepayments.co.in/api/android/auth?mobile=9971702308&password=123456708
+
+Error Res:
+{"status":"ERR","message":"Username and Password is incorrect"}
+
+Success Res:
+{"status":"TXN","message":"User details matched successfully","userdata":{"id":2,"name":"Himanshu Chansoriya","email":"himanshu.icici@outlook.com","mobile":"9971702308","otpverify":"yes","otpresend":0,"mainwallet":700,"nsdlwallet":0,"aepsbalance":1000,"lockedamount":0,"role_id":4,"parent_id":1,"company_id":1,"scheme_id":0,"status":"active","address":"H NO. 361 , MAIN ROAD","shopname":"efewfewf","gstin":null,"city":"BANKHEDI","state":"MADHYA PRADESH","pincode":"461990","pancard":"hgfhgfhg","aadharcard":"251081480076","pancardpic":null,"aadharcardpic":null,"gstpic":null,"profile":null,"kyc":"verified","callbackurl":null,"remark":null,"resetpwd":"changed","account":"311401000181","bank":"Sbi Bank","ifsc":"PYTM0123456","created_at":"23 Jan 20 - 06:44 AM","updated_at":"14 Feb 20 - 04:38 PM","deleted_at":null,"mstock":0,"dstock":0,"rstock":0,"apptoken":"A8AoQwZOZgMef4ibY3EEWTATllHpU2L3esepISj4","bcid":null,"utiid":"no","utiidstatus":"no","utiidtxnid":"no","tokenamount":"107","parents":"Admin (1)<br>1234567890<br>Admin","role":{"id":4,"name":"Retailer","slug":"retailer","created_at":"29 Jul 18 - 12:37 AM","updated_at":"29 Jul 18 - 12:37 AM","scheme":""},"company":{"id":1,"companyname":"Demo","shortname":"EB","website":"uat.securepayments.co.in","logo":"logo1.png","status":"1","created_at":"27 May 19 - 03:06 AM","updated_at":"14 Feb 20 - 04:36 PM","senderid":null,"smsuser":null,"smspwd":null}}}
+
+

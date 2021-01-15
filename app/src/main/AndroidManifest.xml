@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.payment.ipaympayments">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.payment.ipaympayments.app.AppController"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:theme">
+        <activity android:name="com.payment.ipaympayments.activity.CheckStatus"></activity>
+        <activity android:name="com.payment.ipaympayments.activity.LogoutConfirmation" />
+        <activity android:name="com.payment.ipaympayments.activity.ShareReciept" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.payment.ipaympayments.activity.Signup">
+
+        </activity>
+
+        <activity
+            android:name="com.payment.ipaympayments.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.KYCStatus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.ContactUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.EditProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.UpdatePassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.UpdatePin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.DTHRecharge"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.MobileRecharge"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.GasBill"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.LandLine"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.WaterBill"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.OurServices"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.DMT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.ElectricBill"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.OperatorList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.TransactionReciept"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.SenderDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.AddBenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.SavedBenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.Transaction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.Statement"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.TransactionReports"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.DMTStatement"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.ReportsList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.AEPSRequests"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.WalletRequest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.WalletREquestReport.WalletRequestsReports"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.pancards.PanCardStatement"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.pancards.PanCard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.AepsWalletRequest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.SiteView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.MoneyTransfer.SenderDetailActivity"
+            android:label="Sender Details"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.payment.ipaympayments.MoneyTransfer.SenderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.MicoAtmWalletRequest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.printer.Invoice"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.RechargePlans.ViewPlans"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.activity.McroAtmStatement"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.newServices.BillActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.bppsServices.OperatorListNew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.bppsServices.FetchBill"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.ipaympayments.bppsServices.BillActivityNew"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.payment.ipaympayments.activity.McroAtmSettleReport" />
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.files"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="firebase_performance_logcat_enabled"
+            android:value="true" />
+    </application>
+
+</manifest>

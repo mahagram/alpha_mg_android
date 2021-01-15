@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3CA5A5</color>
+    <color name="colorPrimaryTrans">#263CA5A5</color>
+    <color name="colorPrimaryDark">#3CA5A5 </color>
+    <color name="colorAccent">#3CA5A5 </color>
+    <color name="white">#FFFFFF</color>
+    <color name="Gray">#EBEBEB</color>
+    <color name="GrayLight">#72F7F7F7</color>
+    <color name="black">#000000</color>
+
+    <color name="Gray_DarkGray">#2F4F4F</color>
+    <color name="red">#F44336</color>
+    <color name="green">#4CAF50</color>
+    <color name="orange">#3CA5A5</color>
+    <color name="matGreen">#00897B</color>
+    <color name="matYellow">#FFB300</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="txt_black">#CB000000</color>
+    <color name="sub_txt_hint">#79000000</color>
+    <color name="viewline_color">#8e8e93</color>
+</resources>
