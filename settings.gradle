@@ -1,0 +1,3 @@
+include ':mahagram-sdk'
+include ':app'
+rootProject.name='ipaympayments'
